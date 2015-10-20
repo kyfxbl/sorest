@@ -1,7 +1,8 @@
 {
   "name": "sorest",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "a easy rest framework for node.js",
+  "main": "lib/sorest",
   "keywords": [
     "rest",
     "web",
@@ -12,9 +13,7 @@
     "name": "zheng sheng dong",
     "email": "shengdong.zhen@yilos.com"
   },
-  "contributors": [
-
-  ],
+  "contributors": [],
   "repository": {
     "type": "git",
     "url": "https://github.com/kyfxbl/sorest"
@@ -26,7 +25,13 @@
     "node": ">=0.8"
   },
   "dependencies": {
-
+    "sorest-cli": "*",
+    "abbrev": "^1.0.7",
+    "bunyan": "^1.4.0",
+    "chalk": "^1.1.0",
+    "moment": "^2.10.6",
+    "express": "^4.13.3",
+    "tildify": "^1.1.2"
   },
   "readmeFilename": "README.md",
   "homepage": "https://github.com/kyfxbl/sorest"
