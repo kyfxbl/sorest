@@ -1,0 +1,18 @@
+{
+    "port": 8080,
+    "applications": [
+        "demo"
+    ],
+    "mysql":{
+        "ip": "mysql_ip",
+        "port": 3306,
+        "user": "mysql_user",
+        "password": "mysql_password"
+    },
+    "mongodb": {
+        "ip": "mongo_ip",
+        "port": 2222,
+        "user": "",
+        "password": ""
+    }
+}
