@@ -25,13 +25,16 @@
     "node": ">=0.8"
   },
   "dependencies": {
-    "sorest-cli": "*",
     "abbrev": "^1.0.7",
+    "body-parser": "^1.14.1",
     "bunyan": "^1.4.0",
     "chalk": "^1.1.0",
-    "moment": "^2.10.6",
+    "compression": "^1.6.0",
     "express": "^4.13.3",
-    "tildify": "^1.1.2"
+    "moment": "^2.10.6",
+    "sorest-cli": "*",
+    "tildify": "^1.1.2",
+    "underscore": "^1.8.3"
   },
   "readmeFilename": "README.md",
   "homepage": "https://github.com/kyfxbl/sorest"

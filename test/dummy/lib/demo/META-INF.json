@@ -1,0 +1,21 @@
+{
+    "middlewares": {
+        "name": "load_middleware",
+        "impl": "middleware_loader.load",
+        "comment": "加载中间件"
+    },
+    "services": [
+        {
+            "name": "helloworld",
+            "path": "/demo/helloworld",
+            "method": "post",
+            "impl": "helloworld.hello",
+            "comment": "欢迎页面"
+        }
+    ],
+    "statics": {
+        "name": "demo",
+        "path": "/demo",
+        "dir": "static"
+    }
+}
