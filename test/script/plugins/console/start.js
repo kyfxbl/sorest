@@ -6,7 +6,8 @@ var Sorest = require("../../../../lib/sorest");
 var base_dir = path.join(process.cwd(), "test", "dummy") + sep;
 var args = {
     debug: true,
-    mode: "dev"
+    f: "topo.json",
+    _: ["production"]
 };
 
 var sorest = new Sorest(base_dir, args);
